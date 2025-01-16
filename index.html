@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Central de Segurança do Vector</title>
   <link rel="stylesheet" href="/assets/css/style.scss">
+  <script src="/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -21,16 +22,5 @@
   <footer>
     <p>&copy; 3ª Edição do Escape Room do Romani</p>
   </footer>
-  <script>
-    function processInput() {
-      const userInput = document.getElementById('userInput').value;
-      let result = '';
-
-      // Example processing: reverse the input string
-      result = userInput.split('').reverse().join('');
-
-      document.getElementById('result').innerText = 'Processed result: ' + result;
-    }
-  </script>
 </body>
 </html>
