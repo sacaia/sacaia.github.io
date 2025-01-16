@@ -11,10 +11,26 @@
     <p>Segurança total</p>
   </header>
   <main>
-    {{ content }}
+    <form id="inputForm">
+      <label for="userInput">Enter a string or number:</label>
+      <input type="text" id="userInput" name="userInput">
+      <button type="button" onclick="processInput()">Submit</button>
+    </form>
+    <p id="result"></p>
   </main>
   <footer>
     <p>&copy; 3ª Edição do Escape Room do Romani</p>
   </footer>
+  <script>
+    function processInput() {
+      const userInput = document.getElementById('userInput').value;
+      let result = '';
+
+      // Example processing: reverse the input string
+      result = userInput.split('').reverse().join('');
+
+      document.getElementById('result').innerText = 'Processed result: ' + result;
+    }
+  </script>
 </body>
 </html>
