@@ -18,5 +18,7 @@ body, html {
 }
 
 main {
-  margin-top: 20px; /* Ajuste o valor conforme necessário */
+  position: relative;
+  top: 70%; /* Ajuste o valor conforme necessário */
+  text-align: center;
 }
