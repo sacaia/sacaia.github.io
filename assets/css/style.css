@@ -12,3 +12,11 @@ body, html {
   background-position: center;
   background-size: cover;
 }
+
+.center-text {
+  text-align: center;
+}
+
+main {
+  margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
