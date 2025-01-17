@@ -16,9 +16,3 @@ body, html {
 .center-text {
   text-align: center;
 }
-
-main {
-  position: relative;
-  top: 70%; /* Ajuste o valor conforme necessário */
-  text-align: center;
-}
