@@ -52,3 +52,10 @@ footer {
   justify-content: center;
   /* Center horizontally */
 }
+
+.error-image {
+  display: block;
+  margin: 20px auto; /* Center horizontally */
+  max-width: 200px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
