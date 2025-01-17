@@ -10,11 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const userInput = document.getElementById('userInput').value;
     let result = 'Você jamais passará do meu sistema de segurança gru!';
     let resultClass = 'text-danger';
+    let showErrorImage = true;
 
     for (let pair of inputOutputList) {
       if (pair.input === userInput) {
         result = pair.output;
         resultClass = 'text-success';
+        showErrorImage = false;
         break;
       }
     }
@@ -22,6 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultElement = document.getElementById('result');
     resultElement.innerText = result;
     resultElement.className = 'center-text title-margin ' + resultClass;
+
+    const errorImage = document.getElementById('errorImage');
+    if (showErrorImage) {
+      errorImage.style.display = 'block';
+    } else {
+      errorImage.style.display = 'none';
+    }
   }
 
   document.querySelector('button').addEventListener('click', processInput);
