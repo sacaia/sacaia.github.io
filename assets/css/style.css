@@ -8,7 +8,7 @@ body, html {
 
 .bgimg {
   /* background-image: url('../bg.jpg'); /* Adjusted path to go one level up */
-  background-color: #343a40;
+  background-color: #040204;
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -26,4 +26,8 @@ body, html {
 
 .flex-grow {
   flex: 1;
+}
+
+footer {
+  background-color: #343a40;
 }
