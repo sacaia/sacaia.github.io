@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Vector.codex</title>
-  <link rel="icon" href="/assets/icon.png" type="image/x-icon">
-  
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <script src="/assets/js/script.js" defer></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
-  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vector.codex</title>
+    <link rel="icon" href="/assets/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/assets/js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+
 </head>
+
 <body class="full-height">
 
     <div class="row flex-grow">
         <div class="col-2" style="background-image: url('assets/hack.gif')">
-        1 of 3
+
         </div>
         <div class="col-8 bgimg">
-            <h1 class="center-text">Central de Segurança do Vector</h1>
-            <hr style="margin:auto;width:40%">
-            <p class="center-text">Ah ééé!</p>
+            <h1 class="center-text text-green title-margin">Central de Segurança do Vector</h1>
+            <hr style="margin:auto;width:60%;color:white">
+            <p class="center-text text-light-emphasis" style="margin-top:10px;">Ah ééé!</p>
 
-            <main class="center-text">
-                <form id="inputForm">
-                  <label for="userInput">Código de Verificação:</label>
-                  <input type="text" id="userInput" name="userInput">
-                  <button type="button" onclick="processInput()">Validar</button>
-                </form>
-                <p id="result"></p>
-            </main>
+
+            <form class="row g-3 center" id="inputForm">
+                <div class="col-auto">
+                    <input type="text" class="form-control" id="userInput" name="userInput" placeholder="Código">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-light px-3" type="button" onclick="processInput()">Validar</button>
+                </div>
+            </form>
+            <p class="center-text title-margin text-danger" id="result"></p>
+            <p id="result"></p>
+
         </div>
         <div class="col-2" style="background-image: url('assets/hack.gif')">
-        3 of 3
+
         </div>
     </div>
 
- 
-  
-  <footer class="footer mt-auto py-3 bg-body-tertiary">
-    <div class="container">
-        <span class="text-light">&copy; 3ª Edição do Escape Room do Romani</span>
-      </div>
-  </footer>
+
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-light">&copy; 3ª Edição do Escape Room do Romani</span>
+        </div>
+    </footer>
 
 </body>
+
+</html>
+
+</body>
+
 </html>
