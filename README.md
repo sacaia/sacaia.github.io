@@ -4,4 +4,4 @@
 
 ## Usage
 
-Go to the [WebPage] (https://sacaia.github.io/) and have fun!
+Go to the https://sacaia.github.io/ and have fun!
