@@ -40,6 +40,14 @@ footer {
   background-color: #343a40;
 }
 
+.hr-white {
+  border: 0;
+  height: 1px;
+  background: white;
+  margin: auto;
+  width: 60%;
+}
+
 .text-green {
   color: #0eab0e;
   /* Text color */
