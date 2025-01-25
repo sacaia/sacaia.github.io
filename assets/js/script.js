@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     { input: 'YVUYPTPDWHQX', output: 'Procure pela área aberta, geralmente localizada na parte externa de uma construção, como uma casa ou apartamento, que pode ser coberta ou descoberta' },
     { input: '3312', output: 'Vocês destravaram a escada para subir até a sala da fortaleza de Vector!' },
     { input: '7552', output: 'Para encontrar o que procuram vocês terão que juntar as três partes do quebra cabeça' },
-    { input: '1742', output: 'Vocês destravaram as duas escadas: para subir até o ultimo piso e para descer até a sala da fortaleza de Vector! \n' },
+    { input: '1742', output: 'Vocês destravaram as duas escadas: para subir até o ultimo piso e para descer até a sala da fortaleza de Vector!' },
     // Add more input-output pairs as needed
   ];
 
