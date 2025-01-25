@@ -1,8 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
   const inputOutputList = [
-    { input: '123', output: 'Voce acha que eu sou otário?' },
-    { input: '321', output: '?' },
-    { input: '404', output: 'Error' },
+    { input: 'MWZW', output: 'Caudeirão de leite fundido' },
+    { input: 'YNZTLT', output: 'Qual a cor do Cavalo Branco de Napoleon' },
+    { input: 'VQUTGW', output: 'Pássaro metálico' },
+    { input: 'LUTZTW', output: 'Uma simulação de uma Guerra' },
+    { input: 'YTDW', output: 'Um licor irlandês feito com creme' },
+    { input: 'UQT', output: 'Uma bebida muito difundida pela Inglaterra' },
+    { input: 'VTIVQ', output: 'Um automóvel muito utilizado para transportar carga' },
+    { input: 'ITYT', output: 'DvDs de filmes infantís' },
+    { input: '1432', output: 'Três braços que nunca param de girar' },
+    { input: '483', output: 'Dragões trabalhadores' },
+    { input: 'TUVVNWCTYUOU', output: 'Um passeio no bosque' },
+    { input: 'TUUCPTTTGDXP', output: 'Procure na cozinha pelo café' },
+    { input: 'YVUYPTPDWHQX', output: 'uma área aberta, geralmente localizada na parte externa de uma construção, como uma casa ou apartamento, que pode ser coberta ou descoberta' },
+    { input: '3312', output: 'Voce acha que eu sou otário?' },
+    { input: '7552', output: '?' },
+    { input: '1742', output: 'Error' },
     // Add more input-output pairs as needed
   ];
 
@@ -13,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let showErrorImage = true;
 
     for (let pair of inputOutputList) {
-      if (pair.input === userInput) {
+      if (pair.input === userInput.toUpperCase()) {
         result = pair.output;
         resultClass = 'text-success';
         showErrorImage = false;
